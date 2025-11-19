@@ -37,7 +37,9 @@ This project predicts loan default risk using interpretable machine learning and
   - loan_amount
   - dti_ratio
 - <a href="https://github.com/kannikaasri/Causal-Inference-and-SHAP-Analysis-for-Loan-Default-Prediction/blob/main/Screenshot%202025-11-18%20222157.png"> SHAP Analysis Screen shot</a>
-
+- <a href="https://github.com/kannikaasri/Causal-Inference-and-SHAP-Analysis-for-Loan-Default-Prediction/blob/main/local_shap_explanations_dti_0.4.json"> SHAP explanation </a>
+- <a href="https://github.com/kannikaasri/Causal-Inference-and-SHAP-Analysis-for-Loan-Default-Prediction/blob/main/top_shap_features_dti_0.4.csv"> SHAP features </a>
+- <a href="https://github.com/kannikaasri/Causal-Inference-and-SHAP-Analysis-for-Loan-Default-Prediction/blob/main/shap_summary_plot_dti_0.4.png"> SHAP summary plot</a>
 ### Five Highest Risk Applicants
 
 Feature contributions for five highest-risk cases (details and plots in notebook/code).
