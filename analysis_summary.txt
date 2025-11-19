@@ -1,0 +1,4 @@
+Analysis Summary
+Best Model: Logistic Regression (AUC=0.797)
+Top SHAP features: employment_status_Unemployed, income, loan_amount
+ATE=0.4890 | Policy: tighten DTI rules
