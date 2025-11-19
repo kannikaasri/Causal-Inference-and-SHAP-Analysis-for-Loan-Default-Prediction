@@ -56,12 +56,6 @@ Based on analysis:
 - Loan applicants with DTI ≥ 0.4 are at significantly higher risk of default.
 - It is recommended to tighten loan approval criteria for high-DTI applicants, and to target the most influential risk drivers found by SHAP (unemployment, low income, high loan amount) for closer scrutiny.
 
-## How to Reproduce
-1. Clone this repository.
-
-2. Install requirements:
-   
-3. Run `loan_default_analysis.py` or open and run the Jupyter notebook.
 
 ## References
 
