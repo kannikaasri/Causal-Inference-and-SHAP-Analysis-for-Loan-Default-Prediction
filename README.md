@@ -35,7 +35,7 @@ This project predicts loan default risk using interpretable machine learning and
   - income
   - loan_amount
   - dti_ratio
-- ![SHAP Summary Plot](images/shap_summary_plot_dti_0.4.png)
+- <a href="https://github.com/kannikaasri/Causal-Inference-and-SHAP-Analysis-for-Loan-Default-Prediction/blob/main/Screenshot%202025-11-18%20222157.png"> SHAP Analysis Screen shot</a>
 
 ### Five Highest Risk Applicants
 
@@ -44,7 +44,7 @@ Feature contributions for five highest-risk cases (details and plots in notebook
 ## Causal Inference: Propensity Score Matching
 
 - Treatment variable: High DTI (DTI ≥ 0.4)
-- ![Propensity Score Overlap](images/propensity_overlap_dti_0.4.png)
+- <a href="https://github.com/kannikaasri/Causal-Inference-and-SHAP-Analysis-for-Loan-Default-Prediction/blob/main/Screenshot%202025-11-18%20222236.png">  Propensity Score Screen shot</a>
 - 951 matched pairs
 - Estimated Average Treatment Effect (ATE): 0.4890
   - Interpretation: High-DTI applicants have a 48.9% higher default rate than matched low-DTI applicants.
@@ -57,12 +57,18 @@ Based on analysis:
 - It is recommended to tighten loan approval criteria for high-DTI applicants, and to target the most influential risk drivers found by SHAP (unemployment, low income, high loan amount) for closer scrutiny.
 
 ## How to Reproduce
+1. Clone this repository.
 
-
+2. Install requirements:
+   
+3. Run `loan_default_analysis.py` or open and run the Jupyter notebook.
 
 ## References
-SHAP documentation: https://shap.readthedocs.io/
 
-Standard methodologies for propensity score matching and model evaluation.
-1. Clone this repository.
-2. Install requirements:
+- SHAP documentation: [https://shap.readthedocs.io/](https://shap.readthedocs.io/)
+- Standard methodologies for propensity score matching and model evaluation.
+
+## License
+
+MIT License
+
