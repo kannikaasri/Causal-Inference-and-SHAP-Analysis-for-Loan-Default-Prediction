@@ -48,6 +48,8 @@ Feature contributions for five highest-risk cases (details and plots in notebook
 
 - Treatment variable: High DTI (DTI ≥ 0.4)
 - <a href="https://github.com/kannikaasri/Causal-Inference-and-SHAP-Analysis-for-Loan-Default-Prediction/blob/main/Screenshot%202025-11-18%20222236.png">  Propensity Score Screen shot</a>
+- <a href="https://github.com/kannikaasri/Causal-Inference-and-SHAP-Analysis-for-Loan-Default-Prediction/blob/main/causal_results_dti_0.4.txt"> causal result </a>
+
 - 951 matched pairs
 - Estimated Average Treatment Effect (ATE): 0.4890
   - Interpretation: High-DTI applicants have a 48.9% higher default rate than matched low-DTI applicants.
