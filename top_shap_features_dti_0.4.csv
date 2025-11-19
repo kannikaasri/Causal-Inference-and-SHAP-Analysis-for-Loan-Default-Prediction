@@ -1,0 +1,5 @@
+feature,mean_abs_shap
+employment_status_Unemployed,0.9146413
+income,0.35234836
+loan_amount,0.30643126
+dti_ratio,0.23008403
