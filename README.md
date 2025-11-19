@@ -27,6 +27,7 @@ This project predicts loan default risk using interpretable machine learning and
 | XGBoost              | 0.761 | 0.693 |
 
 **Best Model:** Logistic Regression
+- <a href="https://github.com/kannikaasri/Causal-Inference-and-SHAP-Analysis-for-Loan-Default-Prediction/blob/main/model_comparison.txt"> model_comparison </a> 
 
 ## SHAP Analysis
 
